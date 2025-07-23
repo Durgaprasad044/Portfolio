@@ -51,10 +51,10 @@ const About: React.FC = () => {
             {/* Content */}
             <div className="space-y-8 lg:order-2">
               <div>
-                <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
+                <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6 text-justify">
                   {portfolioData.personal.bio}
                 </p>
-                <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed text-justify">
                   When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or mentoring aspiring developers. I believe in writing clean, maintainable code and creating solutions that make a real difference.
                 </p>
               </div>

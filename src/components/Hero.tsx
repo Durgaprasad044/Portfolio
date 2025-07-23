@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronDown, Download } from 'lucide-react';
+import { Download } from 'lucide-react';
 import { portfolioData } from '../data/portfolio';
+import ScrollDownButton from './ScrollDownButton';
 
 const Hero: React.FC = () => {
   const [displayText, setDisplayText] = useState('');
@@ -59,12 +60,7 @@ const Hero: React.FC = () => {
           </div>
 
           {/* Typing Animation */}
-          <div className="h-16 flex items-center justify-center">
-            <p className="text-lg md:text-xl text-gray-700 dark:text-gray-400">
-              {displayText}
-              <span className="animate-pulse">|</span>
-            </p>
-          </div>
+          
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -84,14 +80,10 @@ const Hero: React.FC = () => {
           </div>
         </div>
 
-        {/* Scroll Indicator */}
-        <button
-          onClick={scrollToAbout}
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
-          aria-label="Scroll to about section"
-        >
-          <ChevronDown size={32} />
-        </button>
+        {/* Scroll Down Button */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+          <ScrollDownButton targetId="about" />
+        </div>
       </div>
     </section>
   );

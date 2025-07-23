@@ -64,22 +64,7 @@ const Skills: React.FC = () => {
             ))}
           </div>
 
-          {/* Call to Action */}
-          <div className="text-center mt-16">
-            <div className="bg-gray-900 dark:bg-white rounded-lg p-8 text-white dark:text-gray-900">
-              <h3 className="text-2xl font-bold mb-4">Ready to Work Together?</h3>
-              <p className="text-gray-300 dark:text-gray-600 mb-6 max-w-2xl mx-auto">
-                I'm always excited to take on new challenges and collaborate on innovative projects. 
-                Let's discuss how my skills can help bring your ideas to life.
-              </p>
-              <button
-                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                className="px-8 py-4 bg-white dark:bg-gray-900 text-gray-900 dark:text-white font-semibold rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-300"
-              >
-                Get In Touch
-              </button>
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
