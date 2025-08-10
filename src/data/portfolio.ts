@@ -19,16 +19,16 @@ export const portfolioData = {
       description: "Cyber Shield is a machine‑learning‑driven platform that uses NLP to detect fraudulent transactions and phishing emails.",
       technologies: ["React", "Node.js", "Python", "Typescript"],
       githubUrl: "https://github.com/Durgaprasad044/CyberShield.git",
-      liveUrl: "https://cybershield-1-9c7o.onrender.com",
+      liveUrl: "https://cybershield-2.onrender.com",
       featured: true
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "Collaborative project management tool with real-time updates, file sharing, and team collaboration features.",
-      technologies: ["Vue.js", "Express", "PostgreSQL", "Socket.io"],
-      githubUrl: "https://github.com/durgaprasad/taskmanager",
-      liveUrl: "https://taskmanager-demo.vercel.app",
+      title: "MetaCoders",
+      description: "Metacoders is an AI-powered finance platform that delivers real-time cryptocurrency data, market insights, and predictions through an interactive dashboard and a Gemini-driven chatbot.",
+      technologies: ["React", "Typescript", "TailwindCSS", "Node.js"],
+      githubUrl: "https://github.com/Durgaprasad044/GDG",
+      liveUrl: "https://gdg-cpnd.vercel.app",
       featured: true
     },
     {
