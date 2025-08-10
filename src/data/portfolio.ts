@@ -15,11 +15,11 @@ export const portfolioData = {
   projects: [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "Full-featured e-commerce solution with payment integration, inventory management, and admin dashboard.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      githubUrl: "https://github.com/durgaprasad/ecommerce",
-      liveUrl: "https://ecommerce-demo.vercel.app",
+      title: "CyberShield",
+      description: "Cyber Shield is a machine‑learning‑driven platform that uses NLP to detect fraudulent transactions and phishing emails.",
+      technologies: ["React", "Node.js", "Python", "Typescript"],
+      githubUrl: "https://github.com/Ravitheja1289-dot/CyberShield.git",
+      liveUrl: "",
       featured: true
     },
     {
