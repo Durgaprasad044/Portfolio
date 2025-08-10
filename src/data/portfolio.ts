@@ -18,8 +18,8 @@ export const portfolioData = {
       title: "CyberShield",
       description: "Cyber Shield is a machine‑learning‑driven platform that uses NLP to detect fraudulent transactions and phishing emails.",
       technologies: ["React", "Node.js", "Python", "Typescript"],
-      githubUrl: "https://github.com/Ravitheja1289-dot/CyberShield.git",
-      liveUrl: "",
+      githubUrl: "https://github.com/Durgaprasad044/CyberShield.git",
+      liveUrl: "https://cybershield-1-9c7o.onrender.com",
       featured: true
     },
     {
